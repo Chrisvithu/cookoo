@@ -65,7 +65,7 @@ render(
     <BrowserRouter>
 
       <Main>
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/home" component={Home}/>
             <Route path="/foods" render={(props) => (<Car {...props} data={data}/>)}/>
             <Route path="/foods/:id" render={(props) => (<CarDetail {...props} data={data}/>)}/>
             <Route path="/about" component={About}/>
