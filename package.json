@@ -2,7 +2,7 @@
   "name": "scotch-cars",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://ramjega.github.io/vithureact/",
+  "homepage": "https://chrisvithu.github.io/cookoo/",
   "scripts": {
     "watch": "webpack -d --watch",
     "build": "webpack",
